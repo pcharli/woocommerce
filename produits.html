@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///C:/Users/chrprr1/AppData/Local/Temp/MarkdownPadPreview.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>produits</title>
+
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+<!--<base href="file:\\\C:\Users\chrprr1\Desktop\">--><base href=".">
+</head>
+<body>
+<h1>1 GANTS IXON RS CRUISE VX</h1>
+<p>Référence	IX0634
+Etanchéité	non
+Réfléchissant	non
+Serrage poignet	oui
+Renforts phalanges	non
+Renfort paume	oui
+Saisonnalité	été
+Sexe	homme
+Matière	cuir
+Gore-Tex	non
+Homologation	CE EPI</p>
+<p>prix : 39.90
+promo : 36.70
+couleur: noir
+description:
+Ixon vous présente ses gants RS Cruise VX :</p>
+<p>Tout cuir de chèvre à manchette courte
+Paume renforcée en cuir
+Doublure jersey coton collé
+Certifiés CE EPI</p>
+<p>categorie: motard gants</p>
+<h1>2 GANTS DARTS TUCSON</h1>
+<p>Référence	CH0373
+Saisonnalité	mi-saison
+Matière	cuir
+Etanchéité	oui (membrane imperméable et respirante)
+Gore-Tex	non
+Renforts phalanges	non
+Renfort paume	non
+Serrage poignet	oui
+Réfléchissant	non
+Sexe	homme</p>
+<p>prix : 42.00
+couleur: chocolat
+description:
+Darts vous présente ses gants Tucson :</p>
+<p>Gants moto en cuir
+Membrane Hipora 100% étanche
+Doublure Bemberg, soyeuse et thermorégulatrice
+Doublure fausse fourrure
+Paume de la main pourvue de grip pour une meilleure préhension de la main sur le guidon
+Fermeture par élastique et velcro
+Gants certifiés CE</p>
+<p>categorie: motard gants</p>
+<h1>3 GANTS SEGURA HARDING</h1>
+<p>Référence	SG1126
+Saisonnalité	mi-saison
+Matière	cuir
+Etanchéité	oui (insert étanche et respirant)
+Gore-Tex	non
+Renfort paume	oui
+Serrage poignet	oui
+Sexe	homme
+Renforts phalanges	oui (coqués)
+Homologation	CE EPI</p>
+<p>prix : 79.00
+promo : 63.00
+code : -10 % avec code HAPPY10
+couleur: noir
+description:
+SEGURA vous présente ses gants mi saison Harding :</p>
+<p>Gants moto mi saison fabriqués en softshell avec la paume en cuir
+Equipés d'une membrane étanche et respirante
+Doublure thermique et isolante ouatinée
+Présence d'un renfort coqué au niveau des phalanges
+Paume renforcée
+Manchette courte
+Serrage au niveau du poignet par un velcro et un zip
+Smock d'aisance au niveau des doigts apportant plus de souplesse
+Homologué CE EPI</p>
+<p>categorie: motard gants</p>
+<h1>4 VESTE BERING CALIFORNIA</h1>
+<p>Référence	BR0742
+Matière	cordura
+Doublure amovible	oui (thermique)
+Protections coudes et épaules homologuées CE	oui (amovibles)
+Dorsale	CE incluse
+Réfléchissant	oui
+Etanchéité	oui (membrane imperméable et respirante)
+Raccord pantalon	oui (demi-zip)
+Sexe	homme
+Gore-Tex	oui
+Saisonnalité	toutes saisons
+Univers marque	Discovery</p>
+<p>prix : 629.00
+promo : 399.00
+code : -10 % avec code HAPPY10
+couleur: noir
+description:
+Bering vous présente sa veste textile 3 en 1, California : 
+Construction en Cordura et empiècements en Armex
+Doublure thermique intégrale à double épaisseur, amovible
+Doublure interne en maille filet 
+Membrane étanche et respirante "Gore-Tex", amovible et avec insert anti-sudation
+Protections coudes et épaules homologuées CE - YFProtectors
+Protection dorsale Safetech, homologuée CE de niveau 2
+Ventilations sur la poitrine, les bras et dans le dos
+Col avec finition néoprène
+Serrage à la taille et aux bras
+Zips d'aisance aux hanches
+Poche dans le bas du dos
+Réfléchissants
+Zip de connexion au pantalon
+Coupe droite
+Veste homologuée CE EPI</p>
+<p>categorie: motard vestes</p>
+<h1>5 VESTE AIRBAG HELITE TOURING 2</h1>
+<p>Référence	HT0018
+Matière	textile
+Doublure amovible	oui
+Protections coudes et épaules homologuées CE	oui (amovibles)
+Dorsale	CE incluse
+Etanchéité	oui (membrane imperméable et respirante)
+Gore-Tex	non
+Réfléchissant	oui
+Saisonnalité	toutes saisons
+Sexe	homme
+Déclenchement airbag	câble
+Zone protégée	nuque,dos et thorax
+Homologation airbag	CE + EN1621</p>
+<p>prix : 749.00
+couleur: gris
+description:
+HELITE vous présente sa veste Airbag TOURING 2 :</p>
+<p>Veste moto équipée d'un airbag intégré et invisible
+Fabriquée en textile Cordura 1000D hautement résistant à l'abrasion, offre une haute qualité de finition
+Etanche et respirant grâce à sa membrane Humax
+Doublure thermique amovible en polyester
+Ventilation optimale grâce aux  inserts ventilés zippés et étanches 
+Multiples ajustements au niveau des bras ainsi qu'à la taille
+Col en néoprène pour plus de confort
+Présences de poches intérieures et extérieures
+Inserts rétro réfléchissants sur les bras, le torse et le dos
+Technologie Airbag HELITE TURTLE
+Déclenchement de l'airbag par câble, attache-clip dissimulée dans la poche
+Gonflage de l'airbag en 0.1 seconde
+Réutilisable, recharge de gaz se remplace rapidement et facilement (type de cartouche 60cc)
+Zones protégées :  le dos, la nuque et le thorax
+Coques de protections KNOX placées aux coudes et épaules, certifiées CE
+Protection dorsale SAS TECH, certifiée CE
+Homologation répondant aux normes CE et EN1621-4
+La protection airbag contre les chocs n'est effective que lorsque l'airbag est entièrement gonflé et que la veste est impérativement et correctement fermée (zip jusqu'en haut et bouton pression fermé ou boucles plastiques toutes fermées). Il est impératif de relier le dispositif à la moto ou au scooter afin de déclencher le gonflement du gilet et être protégé.</p>
+<p>Le dispositif Airbag sert à préparer l'impact et à minimiser ses conséquences sans toutefois garantir une protection absolue contre toutes les blessures, il se gonfle prés du corps pour rigidifier et maintenir le tronc en position neutre, pendant l'impact l'énergie du choc est absorbée et dissipée sur toute la surface du dispositif.</p>
+<p>categorie: motard vestes</p>
+<h1>6 VESTE AIRBAG HELITE TOURING 2</h1>
+<p>prix : 749.00
+code : -10 % avec code HAPPY10
+couleur: noir
+description:
+HELITE vous présente sa veste Airbag TOURING 2 :</p>
+<p>Veste moto équipée d'un airbag intégré et invisible
+Fabriquée en textile Cordura 1000D hautement résistant à l'abrasion, offre une haute qualité de finition
+Etanche et respirant grâce à sa membrane Humax
+Doublure thermique amovible en polyester
+Ventilation optimale grâce aux  inserts ventilés zippés et étanches 
+Multiples ajustements au niveau des bras ainsi qu'à la taille
+Col en néoprène pour plus de confort
+Présences de poches intérieures et extérieures
+Inserts rétro réfléchissants sur les bras, le torse et le dos
+Technologie Airbag HELITE TURTLE
+Déclenchement de l'airbag par câble, attache-clip dissimulée dans la poche
+Gonflage de l'airbag en 0.1 seconde
+Réutilisable, recharge de gaz se remplace rapidement et facilement (type de cartouche 60cc)
+Zones protégées :  le dos, la nuque et le thorax
+Coques de protections KNOX placées aux coudes et épaules, certifiées CE
+Protection dorsale SAS TECH, certifiée CE
+Homologation répondant aux normes CE et EN1621-4
+La protection airbag contre les chocs n'est effective que lorsque l'airbag est entièrement gonflé et que la veste est impérativement et correctement fermée (zip jusqu'en haut et bouton pression fermé ou boucles plastiques toutes fermées). Il est impératif de relier le dispositif à la moto ou au scooter afin de déclencher le gonflement du gilet et être protégé.</p>
+<p>Le dispositif Airbag sert à préparer l'impact et à minimiser ses conséquences sans toutefois garantir une protection absolue contre toutes les blessures, il se gonfle prés du corps pour rigidifier et maintenir le tronc en position neutre, pendant l'impact l'énergie du choc est absorbée et dissipée sur toute la surface du dispositif.</p>
+<p>categorie: motard vestes</p>
+<h1>7 CASQUE SCORPION EXO EXO-1000 AIR - MAT</h1>
+<p>Référence	SC0073
+Type	Intégral
+Type de coque	Fibres tri-composites
+Nombre de coques	2
+Intérieur démontable et lavable	oui
+Ecran anti-rayures	oui
+Ecran solaire interne	oui
+Cache-nez	oui
+Bavette	oui
+Jugulaire	boucle double-D
+Livré avec une housse	oui
+Taille	adulte
+Intérieur	Kwikwick2
+Ecran anti-buée	livré avec écran pinlock
+Poids	1500 g</p>
+<p>prix : 299.00
+promo : 179.90
+couleur: noir
+description:
+Scorpion vous présente son casque intégral Exo-1000 Air :</p>
+<p>Coque externe en fibres tri-composites à structure TCT® (Thermodynamical Composite Technology) à absorption d'énergie et déformation progressive en cas de choc
+2 tailles de coques (petite pour XS, S, M et grande pour L, XL, XXL) pour un ajustement sur mesure
+Calotin en EPS (polystyrène expansé) à triple densité qui apporte confort et fermeté
+Intérieur en tissu Kwikwick2® démontable et lavable, reconnu pour offrir une meilleure respirabilité de la peau grâce à une absorption de l'humidité plus performante
+Système Airfit® qui grâce à des coussins d'air réglables permet un meilleur ajustement à votre morphologie et donc un maintien optimal
+Ecran équipé d'un dispositif Pinlock MaxVision® empêchant la condensation de se former et apportant une protection anti-buée performante
+Système Speedshift® garantissant le remplacement de l'écran en 10 secondes
+Innovation SAS®, plaquage automatique de l'écran en position fermée et ouverte, ce qui garantit une parfaite étanchéité et optimise l'aérodynamisme de votre casque
+Loquet 3 positions de blocage de l'écran qui permet de maintenir intact votre confort visuel et auditif en toutes conditions
+Ecran solaire interne anti-buée Speedview®, plus simple et plus rapide d'utilisation qu'une paire de lunettes de soleil grâce aux deux écrans indépendants
+Différents canaux d'air avec des ouvertures frontales réglables et deux extracteurs à l'arrière pour une meilleure ventilation du casque
+Mentonnière 3 positions de manière à adapter le débit d'air
+Équipé d'une bavette anti-remous et d'un cache-nez amovible
+Boucle de fermeture double D à desserrage rapide (protections démontables et lavables) permettant un ajustement précis du serrage et une meilleure résistance à chaque mise en place du casque
+Poids : 1500 g (+/- 50 g)</p>
+<p>categorie: motard casques intégraux</p>
+<h1>8 CASQUE SHARK SPARTAN BLACK</h1>
+<p>prix : 299.00
+promo : 279.90
+couleur: noir
+description:
+SHARK vous présente son casque intégral, SPARTAN :</p>
+<p>Casque moto en fibre de verre, très léger, avec un design garantissant un aérodynamisme optimal
+Présence d'un double spoiler avec des extracteurs d'air intégrés, optimisant l'aérodynamisme et le rafraîchissement interne
+Intérieur en fibres naturelles de bambou pour une triple efficacité (antibactérien, anti-sudation et hypoallergénique), démontable et lavable
+Shark Easy Fit : cannelures dans la mousse afin d'augmenter le confort du casque pour les porteurs de lunettes
+Nouveau système de fixations latérales de l'écran pour réduire les bruits de sifflement
+Écran traité anti-rayures, équipé d'un pinlock (film anti-buée)
+Système de démontage rapide et sans outils de l'écran
+Double écran solaire interne (labellisé UV 400)
+Pré-disposé au système de communication Sharktooth
+Fermeture par boucle double D
+Poids :  1390 gr (+/- 50 gr)</p>
+<p>categorie: motard casques intégraux</p>
+<h1>9 CASQUE SHARK SPARTAN BLANK</h1>
+<p>prix : 299.00
+promo : 278.90
+couleur: blanc
+description:
+SHARK vous présente son casque intégral, SPARTAN :</p>
+<p>Casque moto en fibre de verre, très léger, avec un design garantissant un aérodynamisme optimal
+Présence d'un double spoiler avec des extracteurs d'air intégrés, optimisant l'aérodynamisme et le rafraîchissement interne
+Intérieur en fibres naturelles de bambou pour une triple efficacité (antibactérien, anti-sudation et hypoallergénique), démontable et lavable
+Shark Easy Fit : cannelures dans la mousse afin d'augmenter le confort du casque pour les porteurs de lunettes
+Nouveau système de fixations latérales de l'écran pour réduire les bruits de sifflement
+Écran traité anti-rayures, équipé d'un pinlock (film anti-buée)
+Système de démontage rapide et sans outils de l'écran
+Double écran solaire interne (labellisé UV 400)
+Pré-disposé au système de communication Sharktooth
+Fermeture par boucle double D
+Poids :  1390 gr (+/- 50 gr)</p>
+<p>categorie: motard casques intégraux</p>
+<h1>10 KIT CHAINE DID ORIGINE ACIER</h1>
+<p>prix : 140.00
+promo : 119.90
+description:
+Chaîne à rouleaux avec joints toriques X-ring Premium de grande qualité avec une résistance supérieure pour résister à la puissance des motos sport d'aujourd'hui.
+Couronne en acier trempé qui garantit une longévité optimale.
+D.I.D possède la plus longue expérience qui soit dans l'équipement d'origine; c'est également le premier fournisseur de chaînes motos en première monte.</p>
+<p>categorie: moto kits chaine</p>
+<h1>11 KIT CHAINE AFAM #525 TYPE ACIER</h1>
+<p>prix : 177.00
+promo : 150.90
+code : -10 % avec code HAPPY10 
+AVERTISSEMENT
+L'entretien régulier de votre kit chaîne augmente considérablement sa longévité. Pensez à nettoyer et à graisser régulièrement votre chaîne.
+description:
+La technologie Afam est recherchée par de nombreux teams Racing dans le monde. Provenant d'une expérience dans les secteurs route, tout-terrain ou racing, le savoir-faire est appliqué dans notre production de couronnes, pignons et chaines. Afam est une marque de classe mondiale. Plus de 25 ans d'expérience en R&amp;D sur GP500 et MotoGP ont abouti à une spécialisation avancée. Avec plus de 7.000 références, Afam a probablement la plus large gamme en couronnes et pignons pour le marché de remplacement ou de conversion.</p>
+<p>Les couronnes acier Afam ne sont pas uniquement des produits de remplacement. En plus d'une large gamme d'alternatives de conversion disponibles, la qualité des couronnes acier Afam dépasse la qualité d'origine. AFAM utilise le meilleur alliage pour la production de ses pignons. Grâce à sa technologie en terme d'usinage et de dureté, AFAM vous garantit la qualité que vous êtes en droit d'attendre pour votre moto.</p>
+<p>Dans la gamme Chaînes Afam vous trouverez facilement une chaîne pour chaque application.</p>
+<p>categorie: moto kits chaine</p>
+<h1>12 PLAQUETTES DE FREINS BREMBO</h1>
+<p>prix : 28.00
+promo : 26.90
+AVERTISSEMENT
+Renseignez-vous sur l’année de votre moto et de votre bloc moteur avant toute commande.
+Les pièces ayant fait l'objet d'une commande spécifique, ne seront ni reprise, ni échangées.
+La garantie ne couvre pas les pièces n'ayant pas été montées par un professionnel (facture à l'appui)
+description:
+Plaquettes de frein Brembo Tout-Terrain de type « Sinter Racing » (Métal fritté). 
+Efficacité maximale en conditions Tout-Terrain
+Toutes conditions de fonctionnement : Terre, Boue, Sable, Chaud, Froid etc...
+Excellentes performances à froid comme à chaud
+Plaquettes très stable dans toutes les conditions d'utilisations
+Le matériau « Sinter » est du métal fritté, c'est une composition de poudres métalliques additionnées de lubrifiants et d'abrasifs. Les poudres métalliques déterminent l'efficacité de freinage, les lubrifiants participent à la stabilité du freinage et les abrasifs maintiennent la propreté des disques.
+Brembo, Leader Mondial des systèmes de freinage propose une gamme de plaquettes de frein hautes qualités expressément développée pour un maximum de sécurité et de performances.</p>
+<p>categorie: moto freins</p>
+<h1>13 PLAQUETTES DE FREINS BREMBO SINTER MÉTAL FRITTÉ AVANT</h1>
+<p>prix : 40.00
+promo : 36.60
+A
+description:
+Plaquettes de frein Brembo de type « Sinter » (Métal fritté).
+Spécialement développées pour les plaquettes de frein avant
+Elles sont caractérisées par une efficacité en toutes conditions d'utilisation
+Bonnes performances à froid comme à chaud
+Bonne longévité garantie notamment en terme de distances parcourues
+Excellente alternative aux plaquettes de frein d'origine
+Le matériau « Sinter » est du métal fritté, c'est une composition de poudres métalliques additionnées de lubrifiants et d'abrasifs. Les poudres métalliques déterminent l'efficacité de freinage, les lubrifiants participent à la stabilité du freinage et les abrasifs maintiennent la propreté des disques
+Brembo, Leader Mondial des systèmes de freinage propose une gamme de plaquettes de freinhautes qualités expressément développé pour un maximum de sécurité et de performances.</p>
+<p>categorie: moto freins</p>
+<h1>14 BULLE ERMAX HAUTE PROTECTION + 10 CM</h1>
+<p>prix : 130.00
+promo : 114.60
+couleur : clair
+description:
+Homologuées TUV et ABE
+Hauteur : + 10 cm
+Hauteur totale: 79 cm
+Kit de fixation
+ATTENTION : PRIX DIFFERENT SELON LA TEINTE
+Compte tenu de la spécificité de cet article (application, finition, couleur, etc...), il ne sera ni repris ni échangé.</p>
+<p>categorie: moto bulles</p>
+<h1>15 BULLE ERMAX HAUTE PROTECTION + 10 CM</h1>
+<p>prix : 143.00
+promo : 114.60
+couleur : gris
+description:
+Homologuées TUV et ABE
+Hauteur : + 10 cm
+Hauteur totale: 79 cm
+Kit de fixation
+ATTENTION : PRIX DIFFERENT SELON LA TEINTE
+Compte tenu de la spécificité de cet article (application, finition, couleur, etc...), il ne sera ni repris ni échangé.</p>
+<p>categorie: moto bulles</p>
+<h1>16 BULLE ERMAX HAUTE PROTECTION + 10 CM</h1>
+<p>prix : 153.00
+promo : 124.60
+couleur : noir
+description:
+Homologuées TUV et ABE
+Hauteur : + 10 cm
+Hauteur totale: 79 cm
+Kit de fixation
+ATTENTION : PRIX DIFFERENT SELON LA TEINTE
+Compte tenu de la spécificité de cet article (application, finition, couleur, etc...), il ne sera ni repris ni échangé.</p>
+<p>categorie: moto bulles</p>
+<h1>17 SAUTE VENT PUIG SPORT</h1>
+<p>prix : 88.00
+couleur : clair
+description:
+PUIG vous présente le saut vent Sport, conçu spécialement pour chaque modèle de moto NAKED les plus actuels.</p>
+<p>Fabriqué en métacrilate à forte résistance aux impacts
+3 mm d’épaisseur, il améliore l’aérodynamique et protège le pilote du vent
+Livré avec une notice de montage
+Type "Sport"
+Homologué TUV
+Dimension H x L: 300 x 260 mm
+Le saut vent est spécifique à chaque moto.</p>
+<p>categorie: moto bulles</p>
+<h1>18 SAUTE VENT PUIG SPORT</h1>
+<p>prix : 88.00
+couleur : rouge
+description:
+PUIG vous présente le saut vent Sport, conçu spécialement pour chaque modèle de moto NAKED les plus actuels.</p>
+<p>Fabriqué en métacrilate à forte résistance aux impacts
+3 mm d’épaisseur, il améliore l’aérodynamique et protège le pilote du vent
+Livré avec une notice de montage
+Type "Sport"
+Homologué TUV
+Dimension H x L: 300 x 260 mm
+Le saut vent est spécifique à chaque moto.</p>
+<p>categorie: moto bulles</p>
+<h1>19 SAUTE VENT PUIG SPORT</h1>
+<p>prix : 88.00
+couleur : noir
+description:
+PUIG vous présente le saut vent Sport, conçu spécialement pour chaque modèle de moto NAKED les plus actuels.</p>
+<p>Fabriqué en métacrilate à forte résistance aux impacts
+3 mm d’épaisseur, il améliore l’aérodynamique et protège le pilote du vent
+Livré avec une notice de montage
+Type "Sport"
+Homologué TUV
+Dimension H x L: 300 x 260 mm
+Le saut vent est spécifique à chaque moto.</p>
+<p>categorie: moto bulles</p>
+<h1>20 ANTIVOL TOP BLOCK U NEXUS 146/250</h1>
+<p>prix : 69.00
+promo: 59.00
+description:
+Top Block vous présente son antivol de type U NEXUS 146/250:</p>
+<p>Antivol U de haute sécurité, homologué, NF/FFMC et classé SRA.
+Crosse de cadenas modulaire en acier cémenté, zingué et coque en plastique injecté
+Serrure tubulaire anti-perçage à combinaisons multiples (250 000), livré avec deux clés.
+Cache de serrure rotatif
+Anse (16mm) en acier au chrome molybdène cémenté trempé, cataphorèse et gainé de PVC gris
+Forme ergonomique de l'anse favorisant la préhension.
+Côtes (L/l): 250/130 mm
+Poids : 2.70 kg</p>
+<p>categorie: moto antivols</p>
+<h1>21 ANTIVOL TOP BLOCK NEXUS CHAINE 1200</h1>
+<p>prix : 133.00
+promo: 113.60
+description:
+Top block vous présente son ensemble Mini U + chaine, Nexus Chaine 900 :
+Mini U de haute sécurité type Nexus Mini, classé SRA/ NF/FFMC
+Crosse de cadenas modulaire en acier cémenté, zingué et coque en plastique injecté
+Serrure tubulaire anti-perçage à combinaisons multiples (250 000), livrée avec deux clés
+Cache de serrure rotatif
+Anse (16 mm) en chrome molybdène cémenté trempé, cataphorèse
+Longueur chaîne = 1200 mm
+Chaîne maillon rond de 14 mm en acier cémenté zingué
+Gaine en cordura avec fourreau de protection
+Résistance à la traction de l'ensemble cadenas et chaîne supérieure à 12 tonnes
+Poids: 4850 gr</p>
+<p>categorie: moto antivols</p>
+<h1>22 BOTTES FORMA SAFARI</h1>
+<p>couleur : noir
+prix : 179.00
+promo: 109.60
+pointures : 39 40 42
+code : -15% avec le code HAPPY15
+description:
+Extérieur</p>
+<p>Cuir et Cordura supérieur
+Semelle "Double Densité" anti-dérapante et résistante aux hydrocarbures
+Protection sélecteur et talon en cuir
+Fermeture Velcro et Zip
+Réflechissant arrière sécurité
+Intérieur</p>
+<p>Insert Drytex Forma, étanche et respirant, antibactérien remplaçable avec APS (Air Pump System)
+Protection moulée TPU du tibia et cheville
+Tissu Polymère extra-doux avec mousse à mémoire
+Semelle intérieure antichoc EVA et Dual Flex(+ de flexibilité)</p>
+<p>categorie: motard bottes</p>
+<h1>23 BOTTES DAINESE TR-COURSE OUT</h1>
+<p>couleur : noir/blanc
+prix : 249.00
+promo: 199.90
+pointures : 39 40 42
+code : -15% avec le code HAPPY15
+description:
+Dainese vous présente ses bottes Tr-Course out :</p>
+<p>Bottes moto avec système anti-torsion au niveau de la cheville
+Orteils en nylon renforcé
+Tibia et talon renforcés en polyuréthane
+Renforts au niveau de la malléole et du sélecteur
+Inserts en tissu extensible pour une meilleure aisance
+Fermeture par zip
+Semelle en caoutchouc anti-dérapante
+Sliders interchangeables</p>
+<p>categorie: motard bottes</p>
+<h1>24 JEAN OVERLAP STREET RAW</h1>
+<p>couleur : bleu
+prix : 129.00
+promo: 99.90
+tailles : s m xl</p>
+<p>description:
+Overlap vous présente son jean Street Raw :</p>
+<p>Jean moto en denim renforcé 3 fois plus résistant à l'abrasion qu'un jean classique (sur les zones renforcées), confortable et respirant
+Coupe Regular : un jean droit depuis les hanches jusqu'aux chevilles
+Renforts en fibres Kevlar : résistance à la coupure, à l'abrasion et au déchirement
+Protections homologuées CE aux genoux
+Présence de poches pour recevoir les protections de hanches (en option)
+Coutures renforcées et invisibles</p>
+<p>categorie: motard pantalons</p>
+<h1>25 JEAN FURYGAN D04</h1>
+<p>couleur : bleu
+prix : 149.00
+promo: 138.90
+code : -10% avec le code HAPPY10
+tailles : s m l</p>
+<p>description:
+FURYGAN vous propose son jean DO4 :</p>
+<p>Jean moto fabriqué en denim (coton) doté d'une doublure en fibres kevlar au niveau des fesses, des hanches et des genoux garantissant une bonne résistance à l'abrasion
+Coupe droite, très légérement élargies pour plus de confort en position de conduite
+Protections D3O homologuées CE placées aux genoux et aux hanches
+Protections de genoux réglables en hauteur (3 positions)
+Coutures renforcées (triples ou quadruples coutures) au niveau des zones les plus exposées à l'abrasion
+Présence de 4 poches extérieures</p>
+<p>categorie: motard pantalons</p>
+
+
+
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
+</body></html>
